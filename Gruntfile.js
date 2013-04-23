@@ -23,13 +23,21 @@ module.exports = function(grunt){
 					appDir: 'www/',
 					baseUrl: 'javascripts/vendor',
 					paths: {
+						'main': '../main',
+						'config': '../config',
 						'app': '../app',
 						'requestAnimationFrame': '../requestAnimationFrame'
 					},
 					dir: 'dist/',
 					optimizeCss: 'standard',
-					optimize: 'none',
+					preserveLicenseComments: false,
+					optimize: 'uglify2',
 					modules: [
+						{
+							name: 'main',
+							include: ['domReady'],
+							exclude: ['app/main']
+						},
 						{
 							name: 'app/main',
 							exclude: [
