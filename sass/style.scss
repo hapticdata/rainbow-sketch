@@ -1,0 +1,27 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "mixins";
+
+@include keyframes( fade-in ){
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+body {
+	background-color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 24px;
+}
+
+.container {
+	@include background(radial-gradient(center, #ffffff, #cccccc));
+}
+body > * {
+	@include animation-name(fade-in);
+	@include animation-duration(3s);
+	@include animation-iteration(1);
+}

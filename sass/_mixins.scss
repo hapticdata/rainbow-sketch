@@ -1,0 +1,39 @@
+// keyframes mixin
+@mixin keyframes($name) {
+	@-webkit-keyframes #{$name} {
+		@content;
+	}
+	@-moz-keyframes #{$name} {
+		@content;
+	}
+	@-ms-keyframes #{$name} {
+		@content;
+	}
+	@keyframes #{$name} {
+		@content;
+	}
+}
+
+@mixin animation-name($name){
+	-webkit-animation-name: $name;
+	-moz-animation-name: $name;
+	-ms-animation-name: $name;
+	-o-animation-name: $name;
+	animation-name: $name;
+}
+
+@mixin animation-duration($duration) {
+	-webkit-animation-duration: $duration;
+	-moz-animation-duration: $duration;
+	-ms-animation-duration: $duration;
+	-o-animation-duration: $duration;
+	animation-duration: $duration;
+}
+
+@mixin animation-iteration($iteration) {
+	-webkit-animation-iteration: $iteration;
+	-moz-animation-iteration: $iteration;
+	-ms-animation-iteration: $iteration;
+	-o-animation-iteration: $iteration;
+	animation-iteration: $iteration;
+}
