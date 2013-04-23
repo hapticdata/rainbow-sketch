@@ -1,0 +1,1 @@
+define(["require","exports","module","./noise/PerlinNoise","./noise/simplexNoise"],function(t,e,i){i.exports={PerlinNoise:t("./noise/PerlinNoise"),simplexNoise:t("./noise/simplexNoise")}});

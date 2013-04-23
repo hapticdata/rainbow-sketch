@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,i){var n=function(t){this.threshold=t};n.prototype={interpolate:function(t,e,i){return this.threshold>i?t:e}},i.exports=n});

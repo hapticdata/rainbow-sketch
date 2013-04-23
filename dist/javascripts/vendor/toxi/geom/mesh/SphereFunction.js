@@ -1,0 +1,1 @@
+define(["require","../Sphere"],function(t){return t("../Sphere").SphereFunction});

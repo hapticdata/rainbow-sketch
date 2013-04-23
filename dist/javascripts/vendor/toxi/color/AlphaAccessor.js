@@ -1,0 +1,1 @@
+define(["require","./accessors"],function(t){return t("./accessors").AlphaAccessor});

@@ -1,0 +1,1 @@
+define(["../../../internals","./SubdivisionStrategy"],function(t,e){var i,n;return i=function(t){e.call(this),this.amp=t},t.extend(i,e),n=i.prototype,n.getAmp=function(){return this.amp},n.invertAmp=function(){return this.amp*=-1,this},n.scaleAmp=function(t){return this.amp*=t,this},n.setAmp=function(t){return this.amp=t,this},i});

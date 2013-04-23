@@ -1,0 +1,1 @@
+define(["dat/utils/common"],function(t){return function(e){if(1==e.a||t.isUndefined(e.a)){for(var i=e.hex.toString(16);6>i.length;)i="0"+i;return"#"+i}return"rgba("+Math.round(e.r)+","+Math.round(e.g)+","+Math.round(e.b)+","+e.a+")"}});

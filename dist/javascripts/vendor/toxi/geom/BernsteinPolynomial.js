@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,n){var i=function(t){this.resolution=t;for(var e=[],n=[],i=[],r=[],s=0,o=1/(t-1),a=0;t>a;a++){var u=1-s,h=u*u,c=s*s;e[a]=u*h,n[a]=3*s*h,i[a]=3*c*u,r[a]=s*c,s+=o}this.b0=e,this.b1=n,this.b2=i,this.b3=r};n.exports=i});

@@ -1,0 +1,1 @@
+define(["require","exports","module","../../internals","./VertexSelector"],function(t,e,i){var n=t("../../internals").extend,r=t("./VertexSelector"),s=function(t){r.call(this,t)};n(s,r),s.prototype.selectVertices=function(){return this.clearSelection(),this.selection=this.selection.concat(this.mesh.getVertices()),this},i.exports=s});

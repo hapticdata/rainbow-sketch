@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,i){var n=function(t,e,i,n){this.phase=t,this.frequency=e,this.amp=i,this.offset=n};i.exports=n});

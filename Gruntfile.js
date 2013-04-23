@@ -62,5 +62,6 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.registerTask('default', ['compass', 'regarde']);
+	grunt.registerTask('dist', ['compass:dist', 'requirejs']);
 
 };

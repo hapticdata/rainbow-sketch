@@ -1,0 +1,1 @@
+define(["../../../internals","./DisplacementSubdivision"],function(t,e){var i=function(t,i){e.call(this,i),this.centroid=t};return t.extend(i,e),i.prototype.computeSplitPoints=function(t){var e=t.getMidPoint(),i=e.sub(this.centroid).normalizeTo(this.amp*t.getLength());return[e.addSelf(i)]},i});

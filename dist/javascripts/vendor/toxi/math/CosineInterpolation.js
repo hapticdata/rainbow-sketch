@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,i){var n=function(){};n.prototype={interpolate:function(t,e,i){return e+(t-e)*(.5+.5*Math.cos(i*Math.PI))}},i.exports=n});

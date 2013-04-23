@@ -1,0 +1,1 @@
+define(["require","exports","module","./behaviors/AttractionBehavior","./behaviors/ConstantForceBehavior","./behaviors/GravityBehavior"],function(t,e){e.AttractionBehavior=t("./behaviors/AttractionBehavior"),e.ConstantForceBehavior=t("./behaviors/ConstantForceBehavior"),e.GravityBehavior=t("./behaviors/GravityBehavior")});

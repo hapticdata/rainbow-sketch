@@ -1,0 +1,1 @@
+define(["../../../internals","./SubdivisionStrategy"],function(t,e){var i=function(){e.call(this)};return t.extend(i,e),i.prototype.computeSplitPoints=function(t){return[t.a.interpolateTo(t.b,.3333333333333333),t.a.interpolateTo(t.b,.6666666666666666)]},i});

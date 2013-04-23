@@ -1,0 +1,1 @@
+define(["require","./distanceProxies"],function(t){return t("./distanceProxies").CMYKDistanceProxy});

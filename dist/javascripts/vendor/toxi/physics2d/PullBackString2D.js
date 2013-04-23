@@ -1,0 +1,1 @@
+define(["require","exports","module","../internals","./VerletSpring2D"],function(t,e,i){var n=t("../internals"),s=t("./VerletSpring2D"),r=function(t,e,i){s.apply(this,[t,e,0,i]),t.lock(),this.setRestLength(.5)};n.extend(r,s),r.prototype.update=function(t){this.b.distanceToSquared(this.a)>this.restLengthSquared&&this.parent.update.call(this,t)},i.exports=r});

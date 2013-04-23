@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e){function n(t){var n=t+"DistanceProxy";e[n]=function(){},e[n].prototype.distanceBetween=function(e,n){return e["distanceTo"+t](n)}}n("HSV"),n("RGB"),n("CMYK")});

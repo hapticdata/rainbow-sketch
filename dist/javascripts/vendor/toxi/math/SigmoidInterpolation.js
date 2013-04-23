@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,i){var n=function(t){void 0===t&&(t=2),this.setSharpness(t)};n.prototype={getSharpness:function(){return this.sharpness},interpolate:function(t,e,i){return i=(2*i-1)*this.sharpPremult,i=1/(1+Math.exp(-i)),t+(e-t)*i},setSharpness:function(t){this.sharpness=t,this.sharpPremult=5*t}},i.exports=n});

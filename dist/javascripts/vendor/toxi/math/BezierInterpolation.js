@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,i){var n=function(t,e){this.c1=t,this.c2=e};n.prototype={interpolate:function(t,e,i){var n=i*i,r=1-i,s=r*r;return t*s*r+3*(this.c1*(e-t)+t)*i*s+3*(this.c2*(e-t)+e)*n*r+e*n*i},setCoefficients:function(t,e){this.c1=t,this.c2=e}},i.exports=n});

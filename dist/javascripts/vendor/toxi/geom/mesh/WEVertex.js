@@ -1,0 +1,1 @@
+define(["./Vertex"],function(t){return t.WEVertex});

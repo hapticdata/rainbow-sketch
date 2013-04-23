@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,i){var n=function(t){this.exponent=void 0===t?2:t};n.prototype={interpolate:function(t,e,i){return t+(e-t)*Math.pow(i,this.exponent)}},i.exports=n});

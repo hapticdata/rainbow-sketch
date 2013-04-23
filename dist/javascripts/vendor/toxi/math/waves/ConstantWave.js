@@ -1,0 +1,1 @@
+define(["require","exports","module","../../internals","./AbstractWave"],function(t,e,i){var n=t("../../internals").extend,s=t("./AbstractWave"),r=function(t){s.apply(this),this.value=t};n(r,s),r.prototype.getClass=function(){return"ConstantWave"},r.prototype.update=function(){return this.value},i.exports=r});

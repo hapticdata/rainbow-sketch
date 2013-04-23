@@ -1,0 +1,1 @@
+define(["require","requestAnimationFrame"],function(e){var n=e("requestAnimationFrame");return function(e){var t,r=1,a=!1,o=function(){a=!0},u=function(){a||(e(r++,o),n(u))};return t={start:function(){return u(),t},stop:o}}});

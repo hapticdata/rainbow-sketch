@@ -1,0 +1,1 @@
+define(["./EdgeLengthComparator"],function(t){var e,i;return e=function(){this._order=e.DEFAULT_ORDERING},e.DEFAULT_ORDERING=new t,i=e.prototype,i.getEdgeOrdering=function(){return this._order.compare},i.setEdgeOrdering=function(t){this._order=t},e});

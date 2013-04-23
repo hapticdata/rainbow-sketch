@@ -1,0 +1,1 @@
+define(["require","exports","module","../../geom/Circle"],function(t,e,i){var n=t("../../geom/Circle"),s=function(t,e){this.circle=1==arguments.length?t:new n(t,e)};s.prototype.applyConstraint=function(t){this.circle.containsPoint(t)&&t.set(this.circle.add(t.sub(this.circle).normalizeTo(this.circle.getRadius())))},i.exports=s});

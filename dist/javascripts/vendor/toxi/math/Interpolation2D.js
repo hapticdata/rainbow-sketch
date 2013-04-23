@@ -1,0 +1,1 @@
+define(["require","exports","module","../internals"],function(t,e,i){var n=t("../internals"),r={};r.bilinear=function(t,e,i,r,s,o,a,h,u,c){var l,d,f,p,m,g,y,x,v,_;n.tests.hasXY(t)?(l=t.x,d=t.y,f=e.x,p=e.y,m=i.x,g=i.y,y=r,x=s,v=o,_=a):(l=t,d=e,f=i,p=r,m=s,g=o,y=a,x=h,v=u,_=c);var b=1/((m-f)*(g-p)),w=(l-f)*b,S=(m-l)*b,A=d-p,E=g-d;return y*S*E+x*w*E+v*S*A+_*w*A},i.exports=r});

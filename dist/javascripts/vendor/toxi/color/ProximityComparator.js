@@ -1,0 +1,1 @@
+define(["require"],function(){var t=function(t,e){this.col=t,this.proxy=e};return t.prototype.compare=function(t,e){var n=this.proxy.distanceBetween(this.col,t),i=this.proxy.distanceBetween(this.col,e);return i>n?-1:n>i?1:0},t});

@@ -1,0 +1,1 @@
+define(["require","exports","module"],function(t,e,i){var n=function(){};n.prototype={interpolate:function(t,e,i){return t+(e-t)*i}},i.exports=n});

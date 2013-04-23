@@ -1,0 +1,1 @@
+define([],function(){var t=function(){};return t.prototype.compare=function(t,e){return-parseInt(t.getLengthSquared()-e.getLengthSquared(),10)},t});
